@@ -2,3 +2,7 @@ dataset/
 results/
 data/
 quantum/
+checkpoints/
+data_old/
+data_pi/
+history/
