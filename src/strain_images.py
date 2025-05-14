@@ -9,13 +9,13 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pylab as plt
 
-from ..DeepStrain.data.nifti_dataset import resample_nifti
-from ..DeepStrain.data import base_dataset
-from ..DeepStrain.data.base_dataset import _roll2center_crop
+from ...DeepStrain.data.nifti_dataset import resample_nifti
+from ...DeepStrain.data import base_dataset
+from ...DeepStrain.data.base_dataset import _roll2center_crop
 from scipy.ndimage.measurements import center_of_mass
 
 from tensorflow.keras.optimizers import Adam
-from ..DeepStrain.options.test_options import TestOptions
+from ...DeepStrain.options.test_options import TestOptions
 from ..DeepStrain.models import deep_strain_model
 from ..DeepStrain.utils import myocardial_strain
 from scipy.ndimage import gaussian_filter
